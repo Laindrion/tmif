@@ -14821,6 +14821,9 @@ img {
   max-width: 43rem;
   width: 100%;
 }
+.agenda__list li > div p {
+  max-width: 50rem;
+}
 .agenda__list .agenda__time {
   position: relative;
   padding-left: 2.375rem;
@@ -14968,6 +14971,18 @@ img {
   max-width: 351px;
   width: 100%;
   color: #fff;
+}
+.press__item h4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.press__item p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .press__item .btn {
   max-width: 136px;
