@@ -15912,7 +15912,7 @@ img {
     right: 0;
     background: rgba(0, 50, 107, 0.9647058824);
     padding: 1.25rem;
-    z-index: 100;
+    z-index: 9999999;
   }
   .header .menu__list li > ul {
     position: static;
@@ -16092,6 +16092,7 @@ img {
   }
   h3 {
     font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 @media (max-width: 400px) {
