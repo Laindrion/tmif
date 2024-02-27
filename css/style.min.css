@@ -14324,8 +14324,8 @@ img {
 .close {
   display: none;
   position: absolute;
-  right: 2rem;
-  top: 2rem;
+  right: 5rem;
+  top: 5rem;
   -webkit-filter: brightness(100);
   filter: brightness(100);
 }
