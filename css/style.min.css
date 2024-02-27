@@ -14322,12 +14322,11 @@ img {
 }
 
 .close {
-  display: none;
+  display: block;
   position: absolute;
-  right: 5rem;
-  top: 5rem;
-  -webkit-filter: brightness(100);
-  filter: brightness(100);
+  right: 2rem;
+  top: 2rem;
+  /* filter: brightness(100); */
 }
 
 .footer {
@@ -15913,6 +15912,8 @@ img {
     background: rgba(0, 50, 107, 0.9647058824);
     padding: 1.25rem;
     z-index: 100;
+    row-gap: 5rem;
+    padding-bottom: 3rem;
   }
   .header .menu__list li > ul {
     position: static;
@@ -16104,6 +16105,14 @@ img {
   }
   .speakers__container .speakers__item .speakers__img {
     height: 12rem;
+  }
+}
+@media (max-width: 380px) {
+  .header .menu__list.active {
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(115px, 1fr) minmax(78px, 1fr);
+    row-gap: 3rem;
+    padding-top: 3rem;
   }
 }
 @media (max-width: 330px) {
