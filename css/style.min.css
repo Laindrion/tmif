@@ -14321,12 +14321,13 @@ img {
   width: 50%;
 }
 
-.close {
-  display: block;
+.close__btn {
+  display: none;
   position: absolute;
   right: 2rem;
   top: 2rem;
-  /* filter: brightness(100); */
+  -webkit-filter: brightness(100);
+  filter: brightness(100);
 }
 
 .footer {
@@ -15886,8 +15887,10 @@ img {
   }
 }
 @media (max-width: 1200px) {
-  .close {
-    display: block;
+  .close__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .header .menu__list {
     display: none;
